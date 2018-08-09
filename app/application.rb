@@ -14,7 +14,7 @@ class Application
     elsif num_1==num_2 || num_2==num_3
       resp.write "Only 2 numbers match. U still sukk"
     else
-      resp.write "There are no matches. You Lose"
+      resp.write "You Lose"
     end
 
     resp.finish
