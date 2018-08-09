@@ -10,7 +10,7 @@ class Application
     resp.write "| #{num_1} | #{num_2} | #{num_3} |\n"
 
     if num_1==num_2 || num_2==num_3 || num_1==num_2
-      resp.write "Only 2 numbers match. Still, You win!"
+      resp.write "Only 2 numbers match. Still, You Win!"
     elsif num_1==num_2 && num_2==num_3
       resp.write "You Win"
     else
